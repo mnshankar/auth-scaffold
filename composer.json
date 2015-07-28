@@ -1,0 +1,21 @@
+{
+    "name": "mnshankar/auth",
+    "description": "Laravel 5.1 authentication scaffolding",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shankar Manamalkav",
+            "email": "mnshankar@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5",
+        "illuminate/console": "~5",
+        "illuminate/filesystem": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "mnshankar\\auth\\": "src/"
+        }
+    },
+}
