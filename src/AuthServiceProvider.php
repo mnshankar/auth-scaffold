@@ -30,6 +30,6 @@ class AuthServiceProvider extends ServiceProvider
     }
     public function provides()
     {
-        return 'scaffold.auth';
+        return array('scaffold.auth');
     }
 }
