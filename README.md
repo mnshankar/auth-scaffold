@@ -7,8 +7,8 @@ Laravel 5.0 had this cool "opt-in" artisan command to generate files required
  saver for me.
   
  For unknown reasons, this feature did not make it to version 5.1.  So, I 
- copied the code that Taylor Otwell wrote for the 5.0 branch and 
- created a package.
+ reused (and slightly modified) the code that Taylor Otwell wrote for the 5.0 
+ branch and created a package.
 
 **I would ideally like to see this feature included in "Laravel Collective". **
 

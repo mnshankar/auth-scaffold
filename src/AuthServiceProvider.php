@@ -13,7 +13,13 @@ use Illuminate\Support\ServiceProvider;
 use mnshankar\auth\Console\ScaffoldAuthCommand;
 
 class AuthServiceProvider extends ServiceProvider
-{    
+{
+    /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = true;
     public function register()
     {
         $this->app->singleton('scaffold.auth', function()
