@@ -3,14 +3,12 @@ Laravel 5.1 Authentication Scaffold
 
 Laravel 5.0 had this cool "opt-in" artisan command to generate files required
  to quickly scaffold a simple authentication system. Apart from the 
- auth, this also created a master layout page. This was a great time 
- saver for me.
+ auth views (login, register, change pwd), this also created a master layout 
+ page. This was a great time saver for me.
   
  For unknown reasons, this feature did not make it to version 5.1.  So, I 
- reused (and slightly modified) the code that Taylor Otwell wrote for the 5.0 
- branch and created a package.
+ modified the code that Taylor wrote for the 5.0 branch and created a package.
 
-**I would ideally like to see this feature included in "Laravel Collective". **
 
 Installation
 -------------
@@ -42,8 +40,9 @@ Navigating to /home should bring up the auth page.
 
 Usage Notes
 -----------
-It is *highly recommended* that you run this on a fresh Laravel install. It 
-replaces and copies several (key) files (controllers,routes,views) 
+It is *highly recommended* that you run this only on a fresh Laravel install - 
+even prior to changing the default 'App' namespace. It replaces and copies 
+several (key) files (controllers,routes and views).
 
 Credits
 -------
